@@ -5481,13 +5481,6 @@ path_provider_linux
 path_provider_platform_interface
 path_provider_windows
 plugin_platform_interface
-shared_preferences
-shared_preferences_android
-shared_preferences_foundation
-shared_preferences_linux
-shared_preferences_platform_interface
-shared_preferences_web
-shared_preferences_windows
 webview_flutter
 webview_flutter_platform_interface
 webview_flutter_wkwebview
@@ -9274,6 +9267,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 --------------------------------------------------------------------------------
 get
+get_storage
 
 MIT License
 
