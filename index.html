@@ -31,8 +31,74 @@
 
   <title>skytrailrunning</title>
   <link rel="manifest" href="manifest.json">
+
+  <style>
+    /* Loading screen container */
+    #loading-screen {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      background-color: rgba(255, 255, 255, 0.4); /*white; */ 
+      z-index: 1;
+    }
+
+    /* Scrolling background image */
+    .scrolling-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;               /* Fit screen height */
+      width: 210%;                /* Keep original width */
+      background: url('lib/assets/img/kaf.jpeg') repeat-x; 
+      background-size: cover;
+      animation: scroll-horizontal 5s linear infinite;
+      z-index: 0;
+    }
+
+    /* Horizontal scrolling animation */
+    @keyframes scroll-horizontal {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* Optional spinner */
+    .loader {
+      position: relative;
+      border: 8px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 8px solid #3498db;
+      width: 60px;
+      height: 60px;
+      animation: spin 1.2s linear infinite;
+    }
+
+    /* Spinner animation */
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
 </head>
 <body>
+  <div class="scrolling-background"></div>
+  <div id="loading-screen">
+    <div class="loader"></div>
+  </div>
+
+  <script>
+    // Hide the loading screen when Flutter is ready
+    window.addEventListener('flutter-first-frame', function () {
+      document.getElementById('loading-screen').style.display = 'none';
+    });
+  </script>
+
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
