@@ -4,13 +4,21 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"favicon-16x16.png": "cf54afc7801babdccd7894bfcb110c3d",
+<<<<<<< HEAD
 "flutter_bootstrap.js": "8585627888ea1568e95800a3a9d7172e",
+=======
+"flutter_bootstrap.js": "a5d93b7940fd9011daa7d1707cd7f774",
+>>>>>>> 0efe163 (gen QR)
 "version.json": "9a077137d1ef72a66524566f2159b1bb",
 "favicon.ico": "84450c309a8089cd239bdee384df0c81",
 "index.html": "af46a0762f71b2cce6091b2ff3e840ea",
 "/": "af46a0762f71b2cce6091b2ff3e840ea",
 "apple-touch-icon.png": "2666f7da98f4bdeb87f1160fe10abcd7",
+<<<<<<< HEAD
 "main.dart.js": "89e2a8b3a57d4716d5987eb70bac7c86",
+=======
+"main.dart.js": "e1f7574664ea8e342478f538e616e8f7",
+>>>>>>> 0efe163 (gen QR)
 "flutter.js": "f393d3c16b631f36852323de8e583132",
 "favicon.png": "d0d8137c3ed76e9e3ff3d2d2d365fa63",
 "icons/Icon-192.png": "d0d8137c3ed76e9e3ff3d2d2d365fa63",
@@ -18,6 +26,7 @@ const RESOURCES = {"favicon-16x16.png": "cf54afc7801babdccd7894bfcb110c3d",
 "icons/Icon-maskable-512.png": "e8a71ca4c4c34671f994af7bccd9d709",
 "icons/Icon-512.png": "e8a71ca4c4c34671f994af7bccd9d709",
 "manifest.json": "280e949a4a63cbc4b703efa9d237e9dc",
+<<<<<<< HEAD
 ".git/ORIG_HEAD": "3c6efd2b703ff19d7527aad8e5b6360b",
 ".git/config": "71b8b0c663691ccf4740684b2b2d34a7",
 ".git/objects/61/2b81f302b1a7a03d6d945e38f62cd8ddaedf60": "fd9485b25ce8cb8f1e11ccd5b32bb0c7",
@@ -528,6 +537,10 @@ const RESOURCES = {"favicon-16x16.png": "cf54afc7801babdccd7894bfcb110c3d",
 ".git/FETCH_HEAD": "d4e1721a615024651cd1d436f074f94f",
 "assets/AssetManifest.json": "7b6dac63026a977c2e568d176fd669d4",
 "assets/NOTICES": "d95315beb791b2086faeaec7333781f2",
+=======
+"assets/AssetManifest.json": "7b6dac63026a977c2e568d176fd669d4",
+"assets/NOTICES": "12b7478628a768a7f340eeca53d224b6",
+>>>>>>> 0efe163 (gen QR)
 "assets/FontManifest.json": "05f264133a06f5afeacc91b8f6b574f5",
 "assets/AssetManifest.bin.json": "7d5794497cab634f745836491d6530ee",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "e986ebe42ef785b27164c36a9abc7818",
